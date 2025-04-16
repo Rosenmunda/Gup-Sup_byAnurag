@@ -17,5 +17,8 @@
     "url": "https://github.com/Rosenmunda/Gup-Sup_byAnurag/issues"
   },
   "homepage": "https://github.com/Rosenmunda/Gup-Sup_byAnurag#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1"
+  }
 }

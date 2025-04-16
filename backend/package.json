@@ -4,14 +4,14 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "dev": " nodemon src/index.js",
-    "start": " node src/index.js"
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
   },
   "engines": {
     "node": ">=18.x"
   },
   "dependencies": {
-    "bcryptjs": "^3.0.2",
+    "bcrypt": "^3.0.2",
     "cloudinary": "^2.6.0",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
