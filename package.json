@@ -1,25 +1,13 @@
 {
-  "name": "message",
+  "name": "chat-app",
   "version": "1.0.0",
-  "private": true,
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "prebuild": "npm cache clean --force",
-    "build": "npm install --prefix backend --no-audit --no-fund && npm install --prefix frontend --no-audit --no-fund && npm run build --prefix frontend",
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
     "start": "npm run start --prefix backend"
-  },
-  "engines": {
-    "node": "18.x"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rosenmunda/Gup-Sup_byAnurag.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Rosenmunda/Gup-Sup_byAnurag/issues"
-  },
-  "homepage": "https://github.com/Rosenmunda/Gup-Sup_byAnurag#readme"
+  "license": "ISC"
 }
