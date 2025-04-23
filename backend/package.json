@@ -8,23 +8,21 @@
     "start": "node src/index.js"
   },
   "engines": {
-    "node": ">=18.x"
+    "node": "18.x"
   },
   "dependencies": {
-    "bcrypt": "^3.0.2",
-    "cloudinary": "^2.6.0",
-    "cookie-parser": "^1.4.7",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^4.18.2",
-    "jsonwebtoken": "^9.0.2",
-    "message": "file:..",
-    "mongodb": "^6.15.0",
-    "mongoose": "^8.3.4",
-    "socket.io": "^4.8.1"
+    "bcrypt": "5.1.1",
+    "cloudinary": "1.42.0",
+    "cookie-parser": "1.4.6",
+    "cors": "2.8.5",
+    "dotenv": "16.4.1",
+    "express": "4.18.2",
+    "jsonwebtoken": "9.0.2",
+    "mongodb": "6.3.0",
+    "mongoose": "8.0.3",
+    "socket.io": "4.7.2"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3",
-    "nodemon": "^3.1.9"
+    "nodemon": "3.0.2"
   }
 }

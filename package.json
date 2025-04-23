@@ -1,10 +1,15 @@
 {
   "name": "message",
   "version": "1.0.0",
+  "private": true,
   "main": "index.js",
   "scripts": {
-    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "prebuild": "npm cache clean --force",
+    "build": "npm install --prefix backend --no-audit --no-fund && npm install --prefix frontend --no-audit --no-fund && npm run build --prefix frontend",
     "start": "npm run start --prefix backend"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "repository": {
     "type": "git",
@@ -16,6 +21,5 @@
   "bugs": {
     "url": "https://github.com/Rosenmunda/Gup-Sup_byAnurag/issues"
   },
-  "homepage": "https://github.com/Rosenmunda/Gup-Sup_byAnurag#readme",
-  "description": ""
+  "homepage": "https://github.com/Rosenmunda/Gup-Sup_byAnurag#readme"
 }
