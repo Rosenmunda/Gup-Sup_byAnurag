@@ -18,6 +18,7 @@ const Navbar = () => {
                 <MessageSquare className="w-5 h-5 text-primary" />
               </div>
               <h1 className="text-lg font-bold">Gup-Sup</h1>
+              <h2>by Raag</h2>
             </Link>
           </div>
 
